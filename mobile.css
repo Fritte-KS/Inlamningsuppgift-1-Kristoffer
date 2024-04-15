@@ -6,6 +6,10 @@
 
 
 /*---- Objekt ----*/
+.header-mid-nav-list {
+    display: none;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -13,25 +17,46 @@
     width: auto;
     padding: 20px 15px 20px 15px;
     background: #0079B4;
-    font-family: arial;
+    font-family: arial, sans-serif;
     color: #FFFFFF;
-    font-size: 17px;
+    /* max-width: 1440px;
+    margin: auto; */
 }
 
 .header-container {
+    /* display: flex; */
+    /* justify-content: flex-start; */
+    /* align-items: center; */
+    /* flex-grow: 1; */
+    /* max-width: 1440px; */
+}
+
+/* .header-container {
     width: 100%;
     max-width: 1440px;
     margin: auto;
-}
+} */
 
-.container {
+/* .container {
     width: 100%;
     max-width: 1156px;
     margin: auto;
-}
+} */
 
 
 /*---- Utility ----*/
 .header-logo {
     height: 1.5813rem;
+}
+
+.m-left-5px {
+    margin-left: 5px;
+}
+
+.m-left-10px {
+    margin-left: 10px;
+}
+
+.m-left-20px {
+    margin-left: 20px;
 }
