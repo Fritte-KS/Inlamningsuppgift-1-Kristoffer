@@ -1,0 +1,37 @@
+/*---- Typ-selektorer ----*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+/*---- Objekt ----*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    padding: 20px 15px 20px 15px;
+    background: #0079B4;
+    font-family: arial;
+    color: #FFFFFF;
+    font-size: 17px;
+}
+
+.header-container {
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.container {
+    width: 100%;
+    max-width: 1156px;
+    margin: auto;
+}
+
+
+/*---- Utility ----*/
+.header-logo {
+    height: 1.5813rem;
+}
