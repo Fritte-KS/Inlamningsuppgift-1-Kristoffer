@@ -65,8 +65,86 @@
     display: none;
 }
 
+/*----- Inställningar för header mid -----*/
+.header-mid {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* width: auto; */
+    padding: 60px 15px 60px 15px;
+    font-family: founders-grotesk, arial, sans-serif;
+    color: #3C4650;
+}
 
+.white-box-rounded {
+    /* margin: 0px 15px 0px 15px; */
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 0px 20px 20px 20px;
+}
 
+.header-mid-h1 {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 20px 0px 30px 0px;
+    /* width: 100%; */
+    font-size: 24px;
+    font-weight: 800;
+    /* background-color: #FFFFFF; */
+    /* border-radius: 10px; */
+}
+
+.header-mid-frame {
+    border: 1px solid #767D84;
+    /* padding: 12px 12px 12px 60px; */
+    /* margin: 0px 30px 0px 30px; */
+    border-radius: 5px;
+    /* background-color: #FFFFFF; */
+}
+
+.header-mid-line {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: 0.5px solid #767D84;
+    margin: 0 5px 0 10px;
+    align-items: center;
+}
+
+.header-mid-span {
+    display: flex;
+    align-items: center;
+    /* justify-content: start; */
+    padding-left: 10px;
+    font-size: 14.5px;
+    font-weight: 800;
+}
+
+.header-mid-right-span {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-size: 14.5px;
+    font-weight: 500;
+    padding-left: 12px;
+    color: #6C757D;
+}
+
+.inline-tags {
+    display: flex;
+    align-items: center;
+}
+
+.p-right-10px {
+    padding-right: 10px;
+}
+
+.arrow-icon {
+    font-size: 20px;
+    transform: rotate(90deg) scaleY(1.3);
+    color: #3C4650;
+}
 
 
 
@@ -103,3 +181,10 @@
 } */
 
 /*----- Utility -----*/
+.p-top-12px {
+    padding-top: 12px;
+}
+
+.p-bottom-12px {
+    padding-bottom: 12px;
+}

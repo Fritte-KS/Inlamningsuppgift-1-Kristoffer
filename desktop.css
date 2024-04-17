@@ -41,6 +41,11 @@
         height: 30px;
     }
 
+    /*----- Inställningar för header mid -----*/
+    .white-box-rounded {
+        padding: 0px 30px 30px 30px;
+    }
+
     /*----- Utility -----*/
     .m-left-5px {
         margin-left: 5px;
@@ -49,6 +54,7 @@
     .m-left-10px {
         margin-left: 10px;
     }
+
 
 
     /* .header-nav-list .nav-right-style {
