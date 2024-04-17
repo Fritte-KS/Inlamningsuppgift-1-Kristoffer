@@ -1,31 +1,55 @@
-/*---- Typ-selektorer ----*/
+/*----- Typ-selektorer -----*/
 * {
     box-sizing: border-box;
     margin: 0;
 }
 
-
-/*---- Objekt ----*/
-.header {
-    background: #0079B4;
-}
-
-.header-top {
-    display: flex;
-    align-items: center;
-    width: auto;
-    padding: 20px 15px 20px 15px;
-    font-family: founders-grotesk, arial, sans-serif;
-    color: #FFFFFF;
-}
-
+/*----- Objekt -----*/
 .container {
     width: 100%;
     max-width: 1440px;
     margin: auto;
 }
 
-.header-mid-nav-list {
+.header {
+    background: #0079B4;
+}
+
+/*----- Inställningar för header top -----*/
+.header-left {
+    flex: 1;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    width: auto;
+    padding: 10px 15px 10px 15px;
+    font-family: founders-grotesk, arial, sans-serif;
+}
+
+.header-top a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.vasttrafik-logo {
+    height: 1.5813rem;
+}
+
+.mobile-menu-icon {
+    width: 17px;
+    height: 11px;
+}
+
+.mobile-menu-text {
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+/*----- Header top display none -----*/
+.header-nav-list {
     display: none;
 }
 
@@ -33,6 +57,36 @@
     display: none;
 }
 
+.header-nav-list .span-second-text {
+    display: none;
+}
+
+.nav-right-span-style {
+    display: none;
+}
+
+
+
+
+
+
+/* .header-nav-list .span-first-text {
+    display: none;
+} */
+
+/* .header-nav-list .nav-right-span-style {
+    display: none;
+} */
+
+/* .header-nav-list .nav-right-style {
+    display: flex;
+    margin-left: 0px;
+    display: none;
+} */
+
+/* .search-icon {
+    display: none;
+} */
 
 /* .header-container {
     display: flex;
@@ -48,24 +102,4 @@
     margin: auto;
 } */
 
-
-/*---- Utility ----*/
-.header-logo {
-    height: 1.5813rem;
-}
-
-.header-left {
-    flex: 1;
-}
-
-/* .m-left-5px {
-    margin-left: 5px;
-}
-
-.m-left-10px {
-    margin-left: 10px;
-}
-
-.m-left-20px {
-    margin-left: 20px;
-} */
+/*----- Utility -----*/
