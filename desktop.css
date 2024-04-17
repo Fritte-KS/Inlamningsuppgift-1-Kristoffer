@@ -103,6 +103,15 @@
         height: 1.7813rem;
     }
 
+    /*----- Inställningar för header mid -----*/
+    .container-mid {
+        width: 100%;
+        max-width: 650px;
+        margin: auto;
+    }
+
+
+
     /* .header-nav-list .nav-right-span-style {
         display: flex;
         align-items: center;

@@ -5,7 +5,7 @@
 }
 
 /*----- Objekt -----*/
-.container {
+.container-top {
     width: 100%;
     max-width: 1440px;
     margin: auto;
@@ -48,7 +48,7 @@
     margin-left: 5px;
 }
 
-/*----- Header top display none -----*/
+/*----- Header display none -----*/
 .header-nav-list {
     display: none;
 }
@@ -67,17 +67,12 @@
 
 /*----- Inställningar för header mid -----*/
 .header-mid {
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-    /* width: auto; */
     padding: 60px 15px 60px 15px;
     font-family: founders-grotesk, arial, sans-serif;
     color: #3C4650;
 }
 
 .white-box-rounded {
-    /* margin: 0px 15px 0px 15px; */
     background-color: #FFFFFF;
     border-radius: 10px;
     padding: 0px 20px 20px 20px;
@@ -86,21 +81,14 @@
 .header-mid-h1 {
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     padding: 20px 0px 30px 0px;
-    /* width: 100%; */
     font-size: 24px;
     font-weight: 800;
-    /* background-color: #FFFFFF; */
-    /* border-radius: 10px; */
 }
 
 .header-mid-frame {
     border: 1px solid #767D84;
-    /* padding: 12px 12px 12px 60px; */
-    /* margin: 0px 30px 0px 30px; */
     border-radius: 5px;
-    /* background-color: #FFFFFF; */
 }
 
 .header-mid-line {
@@ -134,10 +122,6 @@
 .inline-tags {
     display: flex;
     align-items: center;
-}
-
-.p-right-10px {
-    padding-right: 10px;
 }
 
 .arrow-icon {
@@ -187,4 +171,8 @@
 
 .p-bottom-12px {
     padding-bottom: 12px;
+}
+
+.p-right-10px {
+    padding-right: 10px;
 }
