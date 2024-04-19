@@ -83,13 +83,16 @@
 
     .main-icons-row {
         display: flex;
-        /* align-items: center; */
         justify-content: space-around;
         flex-direction: row;
     }
 
     .main-divider-line {
         display: none;
+    }
+
+    .main-news-row {
+        display: flex;
     }
 
 
@@ -101,25 +104,6 @@
     .m-left-10px {
         margin-left: 10px;
     }
-
-
-
-    /* .header-nav-list .nav-right-style {
-                margin-left: 5px;
-            } */
-
-    /* .header-right-nav-list {
-                display: flex;
-                align-items: center;
-                margin: 0;
-                padding: 0;
-                list-style-type: none;
-            } */
-
-    /* .header-right-nav-list a {
-                text-decoration: none;
-                color: #FFFFFF;
-            } */
 }
 
 @media (min-width: 992px) {

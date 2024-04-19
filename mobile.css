@@ -183,63 +183,88 @@ body {
 /*------ Main ------*/
 .container-main {
     width: 100%;
-    max-width: 1110px;
+    max-width: 1140px;
     margin: auto;
     font-family: founders-grotesk, arial, sans-serif;
 }
 
 .container-main a {
     text-decoration-color: #00394D;
+    color: #00394D;
+    text-decoration: none;
 }
 
 .main-span {
-    color: #00394D;
+    /* color: #00394D; */
     font-size: 16px;
     font-weight: 700;
     /* text-decoration: none; */
+    text-decoration: underline;
 }
 
 .main-icons {
     display: flex;
-    /* flex-direction: column; */
     align-items: center;
-    justify-content: start;
-    /* margin-bottom: 10px; */
-    /* display: flex; */
-    /* align-items: center; */
-    /* width: auto; */
-    /* list-style-type: none; */
-    /* padding: 10px 15px 10px 15px; */
-    /* font-family: founders-grotesk, arial, sans-serif; */
 }
 
 .main-icons-style {
     width: 64px;
     height: 64px;
-    /* margin-left: 15px;
-    margin-right: 10px; */
     margin: 0px 10px 0px 15px;
 }
-
 
 .main-divider-line {
     display: flex;
     align-items: center;
-    /* width: 100%; */
     border: 0.5px solid #DFE0E3;
     margin: 20px 15px 20px 15px;
     align-items: center;
 }
 
-
-.main-news {
-    display: flex;
-    align-items: center;
-    width: auto;
-    /* padding: 10px 15px 10px 15px; */
-    /* font-family: founders-grotesk, arial, sans-serif; */
+.main-h2 {
     color: #3C4650;
-    font-size: 24px;
+    font-size: 20px;
+    font-weight: 800;
+    margin: 50px 0px 10px 15px;
+}
+
+.main-h3 {
+    font-size: 16px;
+    font-weight: 800;
+    margin: 20px 20px 12px 20px;
+    text-decoration: underline;
+}
+
+.main-p {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.4;
+    margin: 0px 20px 20px 20px;
+}
+
+.main-p-small {
+    font-size: 12.5px;
+    font-weight: 500;
+    margin: 0px 20px 20px 20px;
+}
+
+.main-news-display {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+
+.main-news-box {
+    margin: 0px 15px 20px 15px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.27);
+    border-radius: 5px;
+    flex: 1;
+}
+
+.main-img-style {
+    max-width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 
@@ -256,13 +281,13 @@ body {
     padding-right: 10px;
 }
 
-.m-top-5px {
+/* .m-top-5px {
     margin-top: 5px;
-}
+} */
 
-.m-top-25px {
+/* .m-top-25px {
     margin-top: 25px;
-}
+} */
 
 .m-top-30px {
     margin-top: 30px;
