@@ -204,6 +204,14 @@ body {
 .main-news-display {
     display: flex;
     flex-direction: column;
+    height: 100%;
+}
+
+.paragraph {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 .main-news-box {
