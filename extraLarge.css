@@ -1,0 +1,13 @@
+@media (min-width: 1200px) {
+
+    /*-------- Header top --------*/
+    .header-nav-list a {
+        margin-left: 20px;
+    }
+
+    .header-nav-list .span-second-text {
+        display: flex;
+        align-items: center;
+        margin-left: 5px;
+    }
+}
